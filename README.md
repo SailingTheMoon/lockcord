@@ -5,7 +5,9 @@ Lockcord is an Android WebView client for Discord that wraps the mobile site int
 
 ### Consider the following:
 - There is no voice chatting enabled for the Discord mobile site. Even when changing the user agent to that of a desktop browser, the microphone will still not be detected regardless of which permissions the app is given. Maybe this will bother me enough to further persue workarounds, or maybe not. I rarely voice chat on my phone and this app was ultimately made for my use cases.
+
 - When using 3 button navigation, the back button will exit to launcher instead of returning to the previous page in the app. The onBackPressed function is deprecated and every workaround I've tried to find for webview has not worked. The mobile site is very wonky when it comes to the back button as well so in the end it doesn't really bother me. If I end up finding a way to fix it I probably will but for now its fine for me.
+
 - ***I AM NOT (TYPICALLY) A DEVELOPER.*** I spent about 4 days learning Java and Kotlin because I spontaneously had the idea to make this and wanted to see it through. As a result, most of the code was written thanks to various stackoverflow answers found on DuckDuckGo from the last 10-15 years. That being said, I plan to keep learning Kotlin so I will probably work more on this app in the future.
 
 ### Download
